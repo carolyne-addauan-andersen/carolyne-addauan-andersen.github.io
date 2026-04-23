@@ -43,6 +43,33 @@ Populations such as D-SNP and group plans were intentionally excluded due to dif
 ---
 
 ## Modeling Approach (High Level)
+### End-to-End Modeling Flow
+
+**Enrollment & Eligibility**  
+↓  
+**Claims & Administrative Data**  
+↓  
+**Feature Engineering**  
+- Utilization patterns  
+- NYU ED severity  
+- Chronic conditions  
+- Medication risk  
+- Access & SDOH  
+
+↓  
+**ED Risk Model**  
+(Monthly Scoring)  
+↓  
+**SHAP Explainability**  
+- Global drivers  
+- Member-level rationale  
+
+↓  
+**Risk Stratification**  
+↓  
+**Targeted Interventions**
+
+---
 
 ### Temporal Design
 
