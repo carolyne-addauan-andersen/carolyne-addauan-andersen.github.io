@@ -1,23 +1,25 @@
-## Data Scientist  
-<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics &nbsp;</em></small>
+## Data Scientist
+<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics</em></small>
 
-I am a data scientist with deep experience designing **predictive models and analytical solutions** that support decision‑making across Medicare Advantage, population health, and value‑based care environments.
+I am a data scientist specializing in **decision‑focused machine learning and applied analytics** for Medicare Advantage, population health, and value‑based care environments.
 
-My work focuses on applying machine learning and statistical methods to **real‑world healthcare and marketing problems**, with an emphasis on interpretability, operational relevance, and responsible use of data. I specialize in translating complex analytical outputs into insights that can be clearly understood and acted upon by clinical, marketing, and executive stakeholders.
+My work centers on designing **predictive models and analytical frameworks that inform real operational and strategic decisions**—not just risk scores. I focus on interpretability, longitudinal validation, and responsible use of data, translating complex analytical outputs into insights that can be clearly understood and acted upon by clinical, marketing, and executive stakeholders.
+
+This portfolio showcases how I approach applied machine learning in **regulated, high‑stakes settings**, where success depends as much on judgment, validation, and communication as it does on modeling technique.
 
 ---
 
 ## Areas of Focus
 
 - **Medicare & Medicare Advantage analytics**
-- **Predictive modeling** for utilization, risk stratification, and engagement
+- **Predictive modeling** for utilization, churn, risk stratification, and engagement
 - **Claims‑based feature engineering** and longitudinal analysis
 - **Medical economics**, cost of care, and trend management
 - **Quality measurement**, HEDIS, and care gap closure analytics
 - **Provider performance** and value‑based care support
-- **Marketing analytics**, attribution modeling, and retention analysis
-- **Explainable machine learning** for healthcare decision support
-- **Bias mitigation** and responsible use of predictive models
+- **Marketing analytics**, attribution modeling, and retention strategy
+- **Explainable machine learning** for decision support
+- **Bias mitigation** and responsible model design
 - Translating analytics into **actionable insight** for clinical and business leaders
 
 ---
@@ -27,7 +29,7 @@ My work focuses on applying machine learning and statistical methods to **real�
 ### 1. Predicting Frequent Emergency Department Utilization in Medicare Advantage  
 <em>A domain‑driven machine learning case study</em>
 
-A prospective modeling approach designed to identify Medicare Advantage members at risk of frequent Emergency Department utilization, with the goal of supporting earlier intervention and diversion to more appropriate care settings.
+A prospective modeling approach designed to identify Medicare Advantage members at risk of frequent Emergency Department utilization, with the goal of enabling earlier intervention and diversion to more appropriate care settings.
 
 **Highlights**
 - Leakage‑aware temporal design  
@@ -40,16 +42,17 @@ A prospective modeling approach designed to identify Medicare Advantage members 
 
 ---
 
-### 2. Translating Medicare Advantage Churn Models Into Retention Strategy
-*A decision‑focused machine learning and applied insights case study*
+### 2. Translating Medicare Advantage Churn Models Into Retention Strategy  
+<em>A decision‑focused machine learning and applied insights case study</em>
 
-This project extends a voluntary Medicare Advantage churn model beyond risk prediction to examine how model explainability and post‑model validation can inform retention and marketing strategy ahead of Annual Enrollment Period.
+This project extends a voluntary Medicare Advantage churn model beyond prediction to examine how explainability and post‑model validation can inform retention and marketing strategy ahead of Annual Enrollment Period.
 
+**Highlights**
 - Identification of key drivers of voluntary churn using interpretable models  
 - Validation of prior‑year predictors against real‑world enrollment outcomes  
-- Analysis of which signals remained stable versus those that lost relevance  
-- Deep dives into service friction, affordability, clinical complexity, and utilization patterns  
-- Focus on translating model insights into actionable retention and AEP marketing guidance  
+- Distinction between stable vs. transient churn signals  
+- Deep dives into service friction, affordability, clinical complexity, and utilization  
+- Translation of insights into actionable AEP retention guidance  
 
 👉 **[View churn insights analysis](portfolio/ma-voluntary-churn-insights.md)**
 
@@ -58,12 +61,12 @@ This project extends a voluntary Medicare Advantage churn model beyond risk pred
 ### 3. Modeling Medicare Advantage Enrollment Propensity During Annual Enrollment Period  
 <em>A multi‑year, domain‑driven machine learning case study</em>
 
-A longitudinal analysis of an enrollment propensity model developed and refined over multiple years to adapt to changing market conditions, eligibility patterns, and plan designs during Annual Enrollment Period.
+A longitudinal analysis of an enrollment propensity model refined over multiple years to adapt to changing market conditions, eligibility patterns, and plan designs during Annual Enrollment Period.
 
 **Highlights**
 - Year‑over‑year model evolution in response to policy and market shifts  
 - Feature engineering grounded in eligibility timing, socio‑economic context, and competition  
-- Progressive handling of extreme class imbalance aligned to prioritization goals  
+- Progressive handling of extreme class imbalance aligned with prioritization goals  
 - Evaluation focused on ranking utility rather than raw accuracy  
 - Emphasis on explainability, bias awareness, and responsible adaptation  
 
@@ -81,7 +84,7 @@ A transparent, time‑series–based attribution framework designed to estimate 
 - Incrementality‑first attribution using counterfactual prediction  
 - Explicit lag and carryover modeling  
 - Joint channel estimation to handle correlation  
-- Decision‑ready, interpretable insight  
+- Interpretable, decision‑ready insight  
 
 👉 **[View attribution analysis](portfolio/multi-channel-attribution.md)**
 
@@ -90,7 +93,7 @@ A transparent, time‑series–based attribution framework designed to estimate 
 ### 5. Multi‑Channel Attribution in Practice: Modeling Assumptions, Tradeoffs, and Failure Modes  
 <em>A technical deep dive for data scientists and analysts</em>
 
-A data‑science–focused exploration of how aggregate multi‑channel attribution models are designed in practice, with emphasis on feature engineering, statistical assumptions, correlation handling, and where attribution approaches can break down.
+A technical exploration of how aggregate multi‑channel attribution models are built and applied in practice, with emphasis on feature engineering, statistical assumptions, correlation handling, and common failure modes.
 
 **Highlights**
 - Explicit framing of the demand data‑generating process  
@@ -107,21 +110,21 @@ A data‑science–focused exploration of how aggregate multi‑channel attribut
 
 I bring a **domain‑first, decision‑oriented mindset** to data science. Rather than optimizing models in isolation, I focus on:
 
-- Framing problems to reflect **clinical, operational, and financial realities**  
-- Designing features aligned with **care delivery pathways and member behavior**  
-- Ensuring models are **interpretable, fair, and governance‑ready**  
-- Stress‑testing assumptions and failure modes before deployment  
-- Communicating insights clearly to **technical teams, clinicians, and senior leaders**  
+- Framing problems to reflect **clinical, operational, and financial realities**
+- Designing features aligned with **care delivery pathways and member behavior**
+- Ensuring models are **interpretable, fair, and governance‑ready**
+- Stress‑testing assumptions and failure modes before deployment
+- Communicating insights clearly to **technical teams, clinicians, and senior leaders**
 
-This approach ensures analytics move beyond prediction toward **measurable, real‑world impact**.
+The goal is not prediction for its own sake, but analytics that lead to **measurable, real‑world impact**.
 
 ---
 
 ## Background
 
-I hold advanced training in statistics and have spent my career working at the intersection of healthcare data, analytics, and strategy across large‑scale healthcare systems.
+I have advanced training in statistics and have spent my career working at the intersection of healthcare data, analytics, and strategy across large‑scale healthcare systems.
 
-My experience spans predictive modeling, medical economics, quality measurement, population health, marketing analytics, and value‑based care support. I have led end‑to‑end analytical initiatives—from problem framing and feature engineering to model validation, explainability, and stakeholder adoption—while mentoring analysts and data scientists and influencing data‑driven strategic decisions.
+My experience spans predictive modeling, medical economics, quality measurement, population health, marketing analytics, and value‑based care support. I have led end‑to‑end analytical initiatives—from problem framing and feature engineering to model validation, explainability, and stakeholder adoption—while mentoring analysts and influencing data‑driven strategic decisions.
 
 ---
 
@@ -129,11 +132,9 @@ My experience spans predictive modeling, medical economics, quality measurement,
 
 - [LinkedIn](https://www.linkedin.com/in/carolyneandersen)
 
----
-
 <small>
 
 **This site showcases independent, non‑proprietary work.**  
 No confidential data, systems, metrics, or internal materials from any employer are included.
-</small>
 
+</small>
