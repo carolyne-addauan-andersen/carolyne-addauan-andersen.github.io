@@ -132,8 +132,6 @@ My experience spans predictive modeling, medical economics, quality measurement,
 
 - [LinkedIn](https://www.linkedin.com/in/carolyneandersen)
 
-<small>
-
 **This site showcases independent, non‑proprietary work.**  
 No confidential data, systems, metrics, or internal materials from any employer are included.
 
