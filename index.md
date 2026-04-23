@@ -1,5 +1,5 @@
 ### Healthcare Data Scientist
-<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics &nbsp;|&nbsp; Value‑Based Care</em></small>
+<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics &nbsp;</em></small>
 
 I am a healthcare data scientist with extensive experience designing **predictive models and analytical solutions** that support decision‑making across Medicare Advantage, population health, and value‑based care environments.
 
