@@ -2,21 +2,34 @@
 
 *A domain-driven machine learning case study integrating healthcare expertise, predictive modeling, and actionable insight.*
 
----
 
+---
 ## Why This Problem Matters
 
-Emergency Department (ED) overutilization among Medicare Advantage (MA) members is both a **clinical and business challenge**. Repeated ED visits often signal fragmented care, unmet social and medical needs, and gaps in preventive or primary care access.
+Emergency Department (ED) overutilization among Medicare Advantage (MA) members presents both a **clinical and business challenge**. Repeated ED visits often signal fragmented care, unmet social and medical needs, and gaps in preventive or primary care access.
 
 For payers operating in a value-based environment, avoidable ED utilization directly impacts **member experience, quality performance, and total cost of care**.
 
-Rather than reacting after utilization has already escalated, this project focuses on **anticipating risk**—identifying members most likely to experience *two or more ED visits in the next year* so that care teams can intervene earlier and redirect care to more appropriate settings.
+Rather than reacting after utilization has already escalated, this model focuses on **anticipating risk**—identifying members most likely to experience *two or more ED visits in the next year* so that care teams can intervene earlier and redirect care to more appropriate settings.
+
+### ED Utilization Risk Lifecycle
+
+    Chronic illness, access barriers, SDOH
+                    ↓
+            Initial ED utilization
+                    ↓
+          Repeated / frequent ED use
+                    ↓
+      Higher cost, poorer experience,
+      fragmented care pathways
+
+This framing positions ED utilization as a signal of upstream care gaps—not an isolated event.
+
 
 ---
-
 ## What I Built
 
-I designed and validated a **machine learning prototype model** that prospectively identifies Medicare Advantage members (age 65+) at risk of frequent ED utilization over a 12-month horizon using only historical, pre-index data.
+I designed and validated a **machine learning model** that prospectively identifies Medicare Advantage members (age 65+) at risk of frequent ED utilization over a 12-month horizon using only historical, pre-index data.
 
 Key design principles include:
 
@@ -28,7 +41,6 @@ Key design principles include:
 The model is designed to run **monthly**, scoring currently enrolled members with continuous enrollment, and to integrate seamlessly with downstream intervention strategies.
 
 ---
-
 ## Population and Scope
 
 To ensure clinical and operational relevance, the model targets a clearly defined population:
@@ -38,55 +50,49 @@ To ensure clinical and operational relevance, the model targets a clearly define
 - Continuously enrolled for the prior 12 months
 - Actively enrolled at time of scoring
 
-Populations such as D-SNP and group plans were intentionally excluded due to differences in benefit design, care models, and social complexity—highlighting a key domain-driven modeling decision to preserve interpretability and fairness.
+Populations such as D-SNP and group plans were intentionally excluded due to differences in benefit design, care models, and social complexity—highlighting a key domain-driven modeling decision to preserve interpretability, fairness, and governance readiness.
 
 ---
-
 ## Modeling Approach (High Level)
+
 ### End-to-End Modeling Flow
 
-**Enrollment & Eligibility**  
-↓  
-**Claims & Administrative Data**  
-↓  
-**Feature Engineering**  
-- Utilization patterns  
-- NYU ED severity  
-- Chronic conditions  
-- Medication risk  
-- Access & SDOH  
+    Enrollment & Eligibility
+              ↓
+    Claims & Administrative Data
+              ↓
+    Feature Engineering
+    • Utilization patterns
+    • NYU ED severity
+    • Chronic conditions
+    • Medication risk
+    • Access & SDOH
+              ↓
+    ED Risk Model (Monthly Scoring)
+              ↓
+    SHAP Explainability
+    • Global drivers
+    • Member-level rationale
+              ↓
+    Risk Stratification
+              ↓
+    Targeted Interventions
 
-↓  
-**ED Risk Model**  
-(Monthly Scoring)  
-↓  
-**SHAP Explainability**  
-- Global drivers  
-- Member-level rationale  
+### Temporal Model Design
 
-↓  
-**Risk Stratification**  
-↓  
-**Targeted Interventions**
+    Feature Window        Prediction Window
+    Prior 12 months   →   Next 12 months
 
----
+    Outcome: ≥ 2 ED visits
 
-### Temporal Design
-
-The model uses strict, non-overlapping time windows:
-
-- **Feature Window:** Prior 12 months
-- **Prediction Window:** Subsequent 12 months
-- **Outcome:** ≥2 ED visits in the prediction window
-
-This structure mirrors real-world deployment and ensures that model performance reflects true prospective risk.
+This strict separation mirrors real-world deployment and ensures that model performance reflects **true prospective risk**, not retrospective pattern recognition.
 
 ### Feature Engineering Guided by Healthcare Domain Knowledge
 
 Rather than relying on raw utilization alone, features were engineered across **clinically meaningful domains**, including:
 
 - **ED utilization patterns** (frequency, recency, persistence)
-- **ED visit severity**, using the **NYU Emergency Department Algorithm** to distinguish avoidable vs. unavoidable visits
+- **ED visit severity**, using the **NYU Emergency Department Algorithm**
 - **Chronic disease burden and multimorbidity**
 - **Frailty and functional risk signals**
 - **Medication complexity and high-risk drug classes**
@@ -94,59 +100,75 @@ Rather than relying on raw utilization alone, features were engineered across **
 - **Preventive care gaps**
 - **Social determinants of health (SDOH)**
 
-This domain-driven approach ensures that predictions reflect **underlying care gaps and modifiable risk factors**, not just historical volume.
+### Feature Domain Map
+
+    Utilization Patterns     | Clinical Complexity    | Medication Risk
+    -------------------------|------------------------|-------------------------
+    Prior ED use             | Chronic conditions     | Polypharmacy
+    Recency / persistence    | Multimorbidity         | High-risk medications
+
+    Severity & Acuity        | Functional Risk        | Access & Context
+    -------------------------|------------------------|-------------------------
+    NYU ED Algorithm         | Frailty indicators     | PCP continuity, SDOH
+
 
 ---
+## Explainability as a First‑Class Requirement
 
-## Explainability as a First-Class Requirement
+In healthcare, prediction alone is not sufficient—stakeholders must understand **why** a member is identified as high risk.
 
-In healthcare, prediction alone is not sufficient. Stakeholders must understand **why** a member is identified as high risk.
+To support transparency and adoption, the model leverages **SHAP (SHapley Additive exPlanations)** at two levels:
 
-To support transparency and adoption, the model leverages **SHAP (SHapley Additive exPlanations)** to explain predictions at both levels:
+- **Global explainability:** Identifies consistent drivers of ED risk across the population
+- **Individual‑level explainability:** Articulates why a specific member is flagged, enabling meaningful outreach conversations
 
-- **Global explainability:** Identifies consistent drivers of ED risk across the population (e.g., avoidable ED patterns, chronic burden, medication complexity)
-- **Individual-level explainability:** Clearly articulates why a specific member is flagged, enabling meaningful outreach conversations
+This interpretability layer bridges analytics and operations, moving teams from *risk scores* to *targeted actions*.
 
-This interpretability layer bridges analytics and operations—helping care teams move from *risk scores* to *targeted actions*.
 
 ---
+## Key Insights From the Analysis
 
+> The model revealed more than *who* is high risk—
+> it clarified *why* interventions succeed or fail.
+
+- Prior ED utilization reflects **unresolved care gaps**, not transient events
+- Patterns of **avoidable ED use** are more actionable than raw visit counts
+- **Frailty and medication complexity** often outweigh single diagnoses
+- Effective outreach depends on *why* ED care is sought—not just frequency
+- Risk stratification is strongest when paired with **driver-specific interventions**
+
+
+---
 ## From Risk Scores to Action
 
-Model outputs are designed to support real operational decisions:
+Model outputs are intentionally designed to support real operational decisions:
 
-- Risk stratification using deciles or flags
-- Alignment of intervention type (not just intensity) based on dominant risk drivers
-- Identification of members most appropriate for:
-  - Primary care engagement
+- Risk stratification using deciles or actionable flags
+- Alignment of **intervention type**, not just intensity, based on dominant risk drivers
+- Identification of members best suited for:
+  - Primary care re‑engagement
   - Urgent care or telehealth diversion
   - Care management or medication review
 
-By combining predictive risk with explainability, the model supports **right-touch interventions**, not one-size-fits-all outreach.
+By combining predictive risk with explainability, the model enables **right‑touch interventions**, avoiding one‑size‑fits‑all outreach.
 
 ---
-
 ## What Makes This Work Stand Out
 
-This project highlights the intersection of **machine learning and healthcare domain expertise**:
-
 - Predictive modeling grounded in clinical and operational reality
-- Thoughtful population definition and bias-aware design
+- Thoughtful population definition and bias‑aware design
 - Clear temporal alignment and governance readiness
 - Strong emphasis on interpretability and trust
 - Direct connection between analytics and care delivery impact
 
 ---
-
 ## Skills Demonstrated
 
-- Healthcare analytics and Medicare Advantage domain expertise
-- Predictive modeling (classification, temporal validation)
+- Medicare Advantage analytics and domain expertise
+- Predictive modeling and temporal validation
 - Feature engineering using claims and administrative data
 - Model explainability (SHAP)
-- Translating technical outputs into business and clinical insight
-- Designing analytics for real-world operational use
+- Translating technical outputs into clinical and business insight
+- Designing analytics for real‑world operational use
 
----
-
-*This case study is intentionally de-identified and abstracted for portfolio purposes while preserving the core analytic and domain-driven principles of the work.*
+*This case study is intentionally de‑identified and abstracted for portfolio purposes while preserving the core analytic and domain‑driven principles of the work.*
