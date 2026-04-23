@@ -1,5 +1,5 @@
 ## Data Scientist  
-<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics &nbsp;|&nbsp; Value‑Based Care</em></small>
+<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics &nbsp;</em></small>
 
 I am a data scientist with deep experience designing **predictive models and analytical solutions** that support decision‑making across Medicare Advantage, population health, and value‑based care environments.
 
@@ -40,7 +40,22 @@ A prospective modeling approach designed to identify Medicare Advantage members 
 
 ---
 
-### 2. Modeling Medicare Advantage Enrollment Propensity During Annual Enrollment Period  
+### 2. Translating Medicare Advantage Churn Models Into Retention Strategy
+*A decision‑focused machine learning and applied insights case study*
+
+This project extends a voluntary Medicare Advantage churn model beyond risk prediction to examine how model explainability and post‑model validation can inform retention and marketing strategy ahead of Annual Enrollment Period.
+
+- Identification of key drivers of voluntary churn using interpretable models  
+- Validation of prior‑year predictors against real‑world enrollment outcomes  
+- Analysis of which signals remained stable versus those that lost relevance  
+- Deep dives into service friction, affordability, clinical complexity, and utilization patterns  
+- Focus on translating model insights into actionable retention and AEP marketing guidance  
+
+👉 **[View churn insights analysis](portfolio/ma-voluntary-churn-insights.md)**
+
+---
+
+### 3. Modeling Medicare Advantage Enrollment Propensity During Annual Enrollment Period  
 <em>A multi‑year, domain‑driven machine learning case study</em>
 
 A longitudinal analysis of an enrollment propensity model developed and refined over multiple years to adapt to changing market conditions, eligibility patterns, and plan designs during Annual Enrollment Period.
@@ -56,7 +71,7 @@ A longitudinal analysis of an enrollment propensity model developed and refined 
 
 ---
 
-### 3. Understanding Multi‑Channel Marketing Impact During Annual Enrollment Period  
+### 4. Understanding Multi‑Channel Marketing Impact During Annual Enrollment Period  
 <em>An incrementality‑focused attribution case study</em>
 
 A transparent, time‑series–based attribution framework designed to estimate how online and offline marketing channels jointly contribute to daily application volume during a peak enrollment period—beyond baseline demand and seasonality.
@@ -72,7 +87,7 @@ A transparent, time‑series–based attribution framework designed to estimate 
 
 ---
 
-### 4. Multi‑Channel Attribution in Practice: Modeling Assumptions, Tradeoffs, and Failure Modes  
+### 5. Multi‑Channel Attribution in Practice: Modeling Assumptions, Tradeoffs, and Failure Modes  
 <em>A technical deep dive for data scientists and analysts</em>
 
 A data‑science–focused exploration of how aggregate multi‑channel attribution models are designed in practice, with emphasis on feature engineering, statistical assumptions, correlation handling, and where attribution approaches can break down.
