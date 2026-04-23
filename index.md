@@ -1,6 +1,7 @@
 # Carolyne Addaun Andersen
 
-### Healthcare Data Scientist | Medicare Advantage | Domain-Driven Machine Learning
+### Healthcare Data Scientist
+**Medicare Advantage | Decision-Focused Machine Learning | Domain-Driven Analytics**
 
 I am a healthcare data scientist with deep experience designing **predictive models and analytical solutions** that support decision-making in Medicare Advantage and value-based care environments.
 
@@ -11,11 +12,16 @@ My work focuses on applying machine learning and statistical methods to **real-w
 ## Areas of Focus
 
 - Medicare Advantage analytics and population health
-- Predictive modeling for utilization, risk, and engagement
+- Predictive modeling for utilization, risk stratification, and engagement
 - Claims-based feature engineering and longitudinal analysis
+- Medical economics, cost of care, and trend management
+- Quality measurement, HEDIS, and care gap closure analytics
+- Provider performance and value-based care support
+- Marketing analytics, attribution modeling, and retention analysis
 - Explainable machine learning for healthcare decision support
-- Bridging analytics, business strategy, and care delivery
-
+- Bias mitigation and responsible use of predictive models
+- Translating analytics into actionable insights for clinical and business teams
+  
 ---
 
 ## Selected Work
