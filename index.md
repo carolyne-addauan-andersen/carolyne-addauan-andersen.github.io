@@ -1,7 +1,7 @@
-### Healthcare Data Scientist
-<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics &nbsp;</em></small>
+## Data Scientist  
+<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics &nbsp;|&nbsp; Value‑Based Care</em></small>
 
-I am a healthcare data scientist with extensive experience designing **predictive models and analytical solutions** that support decision‑making across Medicare Advantage, population health, and value‑based care environments.
+I am a data scientist with deep experience designing **predictive models and analytical solutions** that support decision‑making across Medicare Advantage, population health, and value‑based care environments.
 
 My work focuses on applying machine learning and statistical methods to **real‑world healthcare and marketing problems**, with an emphasis on interpretability, operational relevance, and responsible use of data. I specialize in translating complex analytical outputs into insights that can be clearly understood and acted upon by clinical, marketing, and executive stakeholders.
 
@@ -27,7 +27,7 @@ My work focuses on applying machine learning and statistical methods to **real�
 ### 1. Predicting Frequent Emergency Department Utilization in Medicare Advantage  
 <em>A domain‑driven machine learning case study</em>
 
-A prospective modeling approach designed to identify Medicare Advantage members at risk of frequent Emergency Department utilization, supporting earlier intervention and diversion to more appropriate care settings.
+A prospective modeling approach designed to identify Medicare Advantage members at risk of frequent Emergency Department utilization, with the goal of supporting earlier intervention and diversion to more appropriate care settings.
 
 **Highlights**
 - Leakage‑aware temporal design  
@@ -36,27 +36,43 @@ A prospective modeling approach designed to identify Medicare Advantage members 
 - Interpretability‑first modeling using SHAP  
 - Strong alignment with care management workflows  
 
-👉 **[View case study](portfolio/ed-utilization.md)**
+👉 **[View applied ML analysis](portfolio/ed-utilization.md)**
 
 ---
 
-### 2. Understanding Multi‑Channel Marketing Impact During Annual Enrollment Period  
+### 2. Modeling Medicare Advantage Enrollment Propensity During Annual Enrollment Period  
+<em>A multi‑year, domain‑driven machine learning case study</em>
+
+A longitudinal analysis of an enrollment propensity model developed and refined over multiple years to adapt to changing market conditions, eligibility patterns, and plan designs during Annual Enrollment Period.
+
+**Highlights**
+- Year‑over‑year model evolution in response to policy and market shifts  
+- Feature engineering grounded in eligibility timing, socio‑economic context, and competition  
+- Progressive handling of extreme class imbalance aligned to prioritization goals  
+- Evaluation focused on ranking utility rather than raw accuracy  
+- Emphasis on explainability, bias awareness, and responsible adaptation  
+
+👉 **[View model evolution analysis](portfolio/ma-aep-propensity-model.md)**
+
+---
+
+### 3. Understanding Multi‑Channel Marketing Impact During Annual Enrollment Period  
 <em>An incrementality‑focused attribution case study</em>
 
-A transparent, time‑series–based attribution framework that estimates how online and offline marketing channels jointly contribute to daily application volume during a peak enrollment period—beyond baseline demand and seasonality.
+A transparent, time‑series–based attribution framework designed to estimate how online and offline marketing channels jointly contribute to daily application volume during a peak enrollment period—beyond baseline demand and seasonality.
 
 **Highlights**
 - Aggregate, privacy‑safe modeling across digital and offline channels  
-- Counterfactual, incrementality‑first attribution logic  
+- Incrementality‑first attribution using counterfactual prediction  
 - Explicit lag and carryover modeling  
 - Joint channel estimation to handle correlation  
-- Decision‑ready, interpretable outputs  
+- Decision‑ready, interpretable insight  
 
-👉 **[View case study](portfolio/multi-channel-attribution.md)**
+👉 **[View attribution analysis](portfolio/multi-channel-attribution.md)**
 
 ---
 
-### 3. Multi‑Channel Attribution in Practice: Modeling Assumptions, Tradeoffs, and Failure Modes  
+### 4. Multi‑Channel Attribution in Practice: Modeling Assumptions, Tradeoffs, and Failure Modes  
 <em>A technical deep dive for data scientists and analysts</em>
 
 A data‑science–focused exploration of how aggregate multi‑channel attribution models are designed in practice, with emphasis on feature engineering, statistical assumptions, correlation handling, and where attribution approaches can break down.
@@ -68,7 +84,7 @@ A data‑science–focused exploration of how aggregate multi‑channel attribut
 - Counterfactual attribution mechanics and sensitivity analysis  
 - Practical lessons on trust, failure modes, and model stability  
 
-👉 **[View technical article](portfolio/multi-channel-attribution-under-the-hood.md)**
+👉 **[View technical deep dive](portfolio/multi-channel-attribution-under-the-hood.md)**
 
 ---
 
@@ -101,6 +117,8 @@ My experience spans predictive modeling, medical economics, quality measurement,
 ---
 
 <small>
+
 **This site showcases independent, non‑proprietary work.**  
 No confidential data, systems, metrics, or internal materials from any employer are included.
 </small>
+
