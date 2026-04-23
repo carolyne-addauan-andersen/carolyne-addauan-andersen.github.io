@@ -24,9 +24,9 @@ My work focuses on applying machine learning and statistical methods to **real-w
   
 ---
 
-## Selected Work
+## Selected Work:
 
-### Predicting Frequent Emergency Department Utilization in Medicare Advantage  
+### 1. Predicting Frequent Emergency Department Utilization in Medicare Advantage  
 *A domain-driven machine learning case study*
 
 This case study presents a prospective modeling approach designed to identify Medicare Advantage members at risk of frequent Emergency Department utilization, with the goal of supporting earlier intervention and diversion to more appropriate care settings.
@@ -38,6 +38,21 @@ This case study presents a prospective modeling approach designed to identify Me
 - Emphasis on actionability and care management alignment  
 
 👉 **[View case study](portfolio/ed-utilization.md)**
+
+
+### 2. Understanding Multi‑Channel Marketing Impact During Annual Enrollment Period
+*An incrementality‑focused attribution case study*
+
+This case study presents a transparent, time‑series–based attribution framework designed to understand how online and offline marketing channels jointly contribute to daily application volume during a peak enrollment period, beyond baseline demand and seasonality.
+
+- Aggregate, privacy‑safe time‑series modeling across digital and offline channels  
+- Incrementality‑first attribution using counterfactual prediction  
+- Explicit handling of lag and carryover effects  
+- Joint estimation to account for multi‑channel correlation  
+- Emphasis on interpretability and decision‑ready insight  
+
+👉 **[View case study](portfolio/multi-channel-attribution.md)**
+
 
 ---
 
