@@ -23,6 +23,9 @@ This portfolio showcases how I approach applied machine learning in **regulated,
 - Translating analytics into **actionable insight** for clinical and business leaders
 
 ---
+## How to Read This Portfolio
+
+Each case study highlights how predictive modeling and analytics are translated into **real decision support**. The emphasis is on problem framing, feature design, validation over time, and how insights inform strategy—rather than on metrics or algorithms in isolation.
 
 ## Selected Work
 
