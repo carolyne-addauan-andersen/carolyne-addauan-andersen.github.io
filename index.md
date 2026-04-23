@@ -1,4 +1,4 @@
-# Carolyne Andersen
+# Carolyne Addaun Andersen
 
 ### Healthcare Data Scientist | Medicare Advantage | Domain-Driven Machine Learning
 
@@ -60,5 +60,5 @@ I hold advanced training in statistics and have spent my career working at the i
 
 ---
 
-*This site showcases independent, non-proprietary work.  
+**This site showcases independent, non-proprietary work.**  
 No confidential data, systems, or internal materials from any employer are included.*
