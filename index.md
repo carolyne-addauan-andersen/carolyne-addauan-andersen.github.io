@@ -1,70 +1,72 @@
-# Carolyne Addauan Andersen
+### Healthcare Data Scientist
+<small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics &nbsp;|&nbsp; Value‑Based Care</em></small>
 
-### Senior Healthcare Data Scientist  
-**Decision‑Focused Machine Learning | Domain‑Driven Analytics | Value‑Based Care**
+I am a healthcare data scientist with extensive experience designing **predictive models and analytical solutions** that support decision‑making across Medicare Advantage, population health, and value‑based care environments.
 
-I am a senior healthcare data scientist with extensive experience designing **predictive models and analytical solutions** that support decision‑making across Medicare Advantage, population health, and value‑based care environments.
-
-My work focuses on applying machine learning and statistical methods to **real‑world healthcare and marketing problems**, with an emphasis on interpretability, operational relevance, and responsible use of data. I specialize in translating complex analytical outputs into insights that can be understood and acted upon by clinical, marketing, and executive stakeholders.
+My work focuses on applying machine learning and statistical methods to **real‑world healthcare and marketing problems**, with an emphasis on interpretability, operational relevance, and responsible use of data. I specialize in translating complex analytical outputs into insights that can be clearly understood and acted upon by clinical, marketing, and executive stakeholders.
 
 ---
 
 ## Areas of Focus
 
-- Medicare Advantage and Medicare analytics
-- Predictive modeling for utilization, risk stratification, and engagement
-- Claims‑based feature engineering and longitudinal analysis
-- Medical economics, cost of care, and trend management
-- Quality measurement, HEDIS, and care gap closure analytics
-- Provider performance and value‑based care support
-- Marketing analytics, attribution modeling, and retention analysis
-- Explainable machine learning for healthcare decision support
-- Bias mitigation and responsible use of predictive models
-- Translating analytics into actionable insights for clinical, marketing, and business leaders
-      
+- **Medicare & Medicare Advantage analytics**
+- **Predictive modeling** for utilization, risk stratification, and engagement
+- **Claims‑based feature engineering** and longitudinal analysis
+- **Medical economics**, cost of care, and trend management
+- **Quality measurement**, HEDIS, and care gap closure analytics
+- **Provider performance** and value‑based care support
+- **Marketing analytics**, attribution modeling, and retention analysis
+- **Explainable machine learning** for healthcare decision support
+- **Bias mitigation** and responsible use of predictive models
+- Translating analytics into **actionable insight** for clinical and business leaders
 
 ---
 
-## Selected Work:
+## Selected Work
 
 ### 1. Predicting Frequent Emergency Department Utilization in Medicare Advantage  
-*A domain-driven machine learning case study*
+<em>A domain‑driven machine learning case study</em>
 
-This case study presents a prospective modeling approach designed to identify Medicare Advantage members at risk of frequent Emergency Department utilization, with the goal of supporting earlier intervention and diversion to more appropriate care settings.
+A prospective modeling approach designed to identify Medicare Advantage members at risk of frequent Emergency Department utilization, supporting earlier intervention and diversion to more appropriate care settings.
 
-- Prospective, leakage-aware temporal design  
-- Feature engineering grounded in clinical and operational context  
-- Use of the NYU Emergency Department Algorithm for severity stratification  
-- Interpretability-first approach using SHAP  
-- Emphasis on actionability and care management alignment  
+**Highlights**
+- Leakage‑aware temporal design  
+- Clinically grounded feature engineering  
+- NYU Emergency Department Algorithm for severity stratification  
+- Interpretability‑first modeling using SHAP  
+- Strong alignment with care management workflows  
 
 👉 **[View case study](portfolio/ed-utilization.md)**
 
+---
 
-### 2. Understanding Multi‑Channel Marketing Impact During Annual Enrollment Period
-*An incrementality‑focused attribution case study*
+### 2. Understanding Multi‑Channel Marketing Impact During Annual Enrollment Period  
+<em>An incrementality‑focused attribution case study</em>
 
-This case study presents a transparent, time‑series–based attribution framework designed to understand how online and offline marketing channels jointly contribute to daily application volume during a peak enrollment period, beyond baseline demand and seasonality.
+A transparent, time‑series–based attribution framework that estimates how online and offline marketing channels jointly contribute to daily application volume during a peak enrollment period—beyond baseline demand and seasonality.
 
-- Aggregate, privacy‑safe time‑series modeling across digital and offline channels  
-- Incrementality‑first attribution using counterfactual prediction  
-- Explicit handling of lag and carryover effects  
-- Joint estimation to account for multi‑channel correlation  
-- Emphasis on interpretability and decision‑ready insight  
+**Highlights**
+- Aggregate, privacy‑safe modeling across digital and offline channels  
+- Counterfactual, incrementality‑first attribution logic  
+- Explicit lag and carryover modeling  
+- Joint channel estimation to handle correlation  
+- Decision‑ready, interpretable outputs  
 
 👉 **[View case study](portfolio/multi-channel-attribution.md)**
 
+---
 
-### 3. Multi‑Channel Attribution in Practice: Modeling Assumptions, Tradeoffs, and Failure Modes
-*A technical deep dive into aggregate‑level attribution modeling*
+### 3. Multi‑Channel Attribution in Practice: Modeling Assumptions, Tradeoffs, and Failure Modes  
+<em>A technical deep dive for data scientists and analysts</em>
 
-This article provides a data‑science–focused exploration of how aggregate multi‑channel attribution models are designed in practice, with emphasis on feature engineering, statistical assumptions, correlation handling, and where attribution approaches can break down.
+A data‑science–focused exploration of how aggregate multi‑channel attribution models are designed in practice, with emphasis on feature engineering, statistical assumptions, correlation handling, and where attribution approaches can break down.
 
-- Explicit framing of the data‑generating process for demand and marketing exposure  
-- Feature engineering strategies for lag, carryover, and baseline demand  
-- Rationale for GLM‑based time‑series modeling over black‑box approaches  
+**Highlights**
+- Explicit framing of the demand data‑generating process  
+- Feature engineering for lag, carryover, and baseline demand  
+- Rationale for GLM‑based time‑series models over black‑box approaches  
 - Counterfactual attribution mechanics and sensitivity analysis  
-- Practical lessons on failure modes, tradeoffs, and model trust  
+- Practical lessons on trust, failure modes, and model stability  
 
 👉 **[View technical article](portfolio/multi-channel-attribution-under-the-hood.md)**
 
@@ -74,13 +76,13 @@ This article provides a data‑science–focused exploration of how aggregate mu
 
 I bring a **domain‑first, decision‑oriented mindset** to data science. Rather than optimizing models in isolation, I focus on:
 
-- Framing analytical problems to reflect clinical, operational, and financial realities  
-- Designing features aligned with care delivery pathways and member behavior  
-- Ensuring models are interpretable, fair, and governance‑ready  
+- Framing problems to reflect **clinical, operational, and financial realities**  
+- Designing features aligned with **care delivery pathways and member behavior**  
+- Ensuring models are **interpretable, fair, and governance‑ready**  
 - Stress‑testing assumptions and failure modes before deployment  
-- Communicating insights clearly to technical teams, clinicians, and senior leaders  
+- Communicating insights clearly to **technical teams, clinicians, and senior leaders**  
 
-This approach helps ensure that analytics move beyond prediction and toward **measurable, real‑world impact**.
+This approach ensures analytics move beyond prediction toward **measurable, real‑world impact**.
 
 ---
 
@@ -98,5 +100,9 @@ My experience spans predictive modeling, medical economics, quality measurement,
 
 ---
 
+<small>
+
 **This site showcases independent, non‑proprietary work.**  
 No confidential data, systems, metrics, or internal materials from any employer are included.
+
+</small>
