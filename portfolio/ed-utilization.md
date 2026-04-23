@@ -16,7 +16,7 @@ Rather than reacting after utilization has already escalated, this project focus
 
 ## What I Built
 
-I designed and validated a **machine learning prototype** that prospectively identifies Medicare Advantage members (age 65+) at risk of frequent ED utilization over a 12-month horizon using only historical, pre-index data.
+I designed and validated a **machine learning prototype model** that prospectively identifies Medicare Advantage members (age 65+) at risk of frequent ED utilization over a 12-month horizon using only historical, pre-index data.
 
 Key design principles include:
 
