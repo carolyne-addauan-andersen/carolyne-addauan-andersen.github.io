@@ -1,6 +1,8 @@
 ## Data Scientist
 <small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics</em></small>
 
+![CAA](/assets/image/CAA.jpg)
+
 I am a data scientist specializing in **decision‑focused machine learning and applied analytics** for Medicare Advantage, population health, and value‑based care environments.
 
 My work centers on designing **predictive models and analytical frameworks that inform real operational and strategic decisions**—not just risk scores. I focus on interpretability, longitudinal validation, and responsible use of data, translating complex analytical outputs into insights that can be clearly understood and acted upon by clinical, marketing, and executive stakeholders.
