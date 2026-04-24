@@ -1,8 +1,8 @@
 ## Data Scientist
 <small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics</em></small>
 
-![CAA](/assets/images/CAA.png)
 
+---
 I am a data scientist specializing in **decision‑focused machine learning and applied analytics** for Medicare Advantage, population health, and value‑based care environments.
 
 My work centers on designing **predictive models and analytical frameworks that inform real operational and strategic decisions**—not just risk scores. I focus on interpretability, longitudinal validation, and responsible use of data, translating complex analytical outputs into insights that can be clearly understood and acted upon by clinical, marketing, and executive stakeholders.
@@ -136,6 +136,11 @@ My experience spans predictive modeling, medical economics, quality measurement,
 ## Get in Touch
 
 - [LinkedIn](https://www.linkedin.com/in/carolyneandersen)
+
+---
+
+![CAA](/assets/images/CAA.png)
+
 
 **This site showcases independent, non‑proprietary work.**  
 No confidential data, systems, metrics, or internal materials from any employer are included.
