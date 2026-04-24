@@ -3,7 +3,7 @@
 
 
 ---
-I am a data scientist specializing in **decision‑focused machine learning and applied analytics** for Medicare Advantage, population health, and value‑based care environments.
+I am a data scientist specializing in **decision‑focused machine learning and applied analytics** for Medicare Advantage, population health, health quality outcomes research, and value‑based care environments.
 
 My work centers on designing **predictive models and analytical frameworks that inform real operational and strategic decisions**—not just risk scores. I focus on interpretability, longitudinal validation, and responsible use of data, translating complex analytical outputs into insights that can be clearly understood and acted upon by clinical, marketing, and executive stakeholders.
 
@@ -19,7 +19,7 @@ This portfolio showcases how I approach applied machine learning in **regulated,
 - **Medical economics**, cost of care, and trend management
 - **Quality measurement**, HEDIS, and care gap closure analytics
 - **Provider performance** and value‑based care support
-- **Marketing analytics**, attribution modeling, and retention strategy
+- **Marketing analytics**, attribution modeling, and member acquisition and retention strategy
 - **Explainable machine learning** for decision support
 - **Bias mitigation** and responsible model design
 - Translating analytics into **actionable insight** for clinical and business leaders
@@ -29,7 +29,7 @@ This portfolio showcases how I approach applied machine learning in **regulated,
 
 Each case study highlights how predictive modeling and analytics are translated into **real decision support**. The emphasis is on problem framing, feature design, validation over time, and how insights inform strategy—rather than on metrics or algorithms in isolation.
 
-## Selected Work
+## Selected case studies
 
 ### 1. Predicting Frequent Emergency Department Utilization in Medicare Advantage  
 <em>A domain‑driven machine learning case study</em>
@@ -113,7 +113,7 @@ A technical exploration of how aggregate multi‑channel attribution models are 
 
 ## How I Work
 
-I bring a **domain‑first, decision‑oriented mindset** to data science. Rather than optimizing models in isolation, I focus on:
+I bring a **domain‑first, decision‑oriented mindset** to data science. Rather than optimizing models in isolation. I focus on:
 
 - Framing problems to reflect **clinical, operational, and financial realities**
 - Designing features aligned with **care delivery pathways and member behavior**
@@ -136,6 +136,7 @@ My experience spans predictive modeling, medical economics, quality measurement,
 ## Get in Touch
 
 - [LinkedIn](https://www.linkedin.com/in/carolyneandersen)
+- [Email](carol.addauan@gmail.com) 
 
 ---
 
