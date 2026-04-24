@@ -137,5 +137,3 @@ My experience spans predictive modeling, medical economics, quality measurement,
 
 **This site showcases independent, non‑proprietary work.**  
 No confidential data, systems, metrics, or internal materials from any employer are included.
-
-</small>
