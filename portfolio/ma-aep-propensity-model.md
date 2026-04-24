@@ -172,6 +172,4 @@ The most effective enrollment propensity models are not the most complex—they 
 This reflects how I approach applied machine learning in regulated, high‑stakes environments: **anchored in domain understanding, adaptable by design, and focused on decision impact rather than abstraction.**
 
 ---
-*This case study is intentionally abstracted and de‑identified for portfolio purposes. All modeling approaches are presented to illustrate analytical reasoning, domain adaptation, and methodological evolution rather than proprietary implementations or
-
 *This case study is intentionally abstracted and de‑identified for portfolio purposes. All modeling approaches and examples are presented to illustrate analytical reasoning, domain adaptation, and methodological evolution rather than proprietary implementations or results.*
