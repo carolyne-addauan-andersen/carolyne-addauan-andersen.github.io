@@ -1,9 +1,8 @@
-## Data Scientist
+## Healthcare Data Scientist Turning Complex Data into Measurable Business and Health Outcomes
 <small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics</em></small>
 
-
 ---
-I am a data scientist specializing in **decision‑focused machine learning and applied analytics** for Medicare Advantage, population health, health quality outcomes research, and value‑based care environments.
+I design predictive models and advanced analytics solutions that improve healthcare outcomes, reduce costs, support membership growth, and enable responsible decision-making.
 
 My work centers on designing **predictive models and analytical frameworks that inform real operational and strategic decisions**—not just risk scores. I focus on interpretability, longitudinal validation, and responsible use of data, translating complex analytical outputs into insights that can be clearly understood and acted upon by clinical, marketing, and executive stakeholders.
 
