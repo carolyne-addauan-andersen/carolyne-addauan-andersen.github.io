@@ -1,4 +1,4 @@
-## Healthcare Data Scientist Turning Complex Data into Measurable Business and Health Outcomes
+## Healthcare Data Scientist
 <small><em>Decision‑Focused Machine Learning &nbsp;|&nbsp; Domain‑Driven Analytics</em></small>
 
 ---
